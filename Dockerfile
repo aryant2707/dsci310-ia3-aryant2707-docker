@@ -14,3 +14,4 @@ RUN R --vanilla -e "install.packages('renv', repos = 'https://cloud.r-project.or
 # USER rstudio
 
 RUN R --vanilla -e "renv::restore()"
+
